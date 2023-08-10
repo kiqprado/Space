@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Explorer Limitless</title>
+  </head>
+  <body>
+    <header>
+      <img
+        src="./assets/astronaut.png"
+        alt="Imagem de um Astronauta na Galáxia."
+      />
+      <div class="description">
+        <h1>Explore sem limites</h1>
+        <p>Porque o aprendizado é contínuo</p>
+      </div>
+      <a href="#cards"
+        ><img
+          src="./assets/buttonHover.svg"
+          alt="Botão em seta com hover para um contéudo de cards na página"
+      /></a>
+    </header>
+
+    <main>
+      <section id="cards" class="first">
+        <div class="item">
+          <img src="./assets/orangePlanet.png" alt="Planeta Laranja" />
+          <h2>Não pare nunca</h2>
+          <p>
+            Se você deseja ter sucesso nos estudos, é fundamental que você adote
+            uma mentalidade de "não pare nunca". Estudar de forma consistente e
+            contínua é a chave para o progresso e a conquista de seus objetivos.
+          </p>
+        </div>
+        <div class="item">
+          <img src="./assets/bluePlanet.png" alt="Planeta Azul" />
+          <h2>Só volta</h2>
+          <p>
+            Se você parou ou perdeu o ritmo em alguma atividade ou projeto,
+            saiba que nunca é tarde para recomeçar. Às vezes, as circunstâncias
+            podem mudar, ou podemos nos sentir desmotivados ou sobrecarregados.
+          </p>
+        </div>
+        <div class="item">
+          <img src="./assets/pinkPlanet.png" alt="Planeta Rosa" />
+          <h2>Siga seu ritmo</h2>
+          <p>
+            Avançar pouco a pouco mantém progresso constante em objetivos,
+            evitando parar ou desistir. Mesmo pequenos passos nos aproximam do
+            destino e motivam a continuidade. Não subestime o poder de cada ação
+            rumo ao objetivo final.
+          </p>
+        </div>
+      </section>
+      <section class="second">
+        <form action="" id="form">
+          <fieldset>
+            <legend>Entre em contato</legend>
+
+            <div class="data">
+              <label for="name"></label>
+              <div class="name-icon">
+                <input type="text" id="name" placeholder="Seu nome" />
+              </div>
+            </div>
+            <div class="data">
+              <label for="email"></label>
+              <div class="email-icon">
+                <input type="email" id="email" placeholder="Email" />
+              </div>
+            </div>
+            <div class="data">
+              <label for="message"></label>
+              <textarea
+                name=""
+                id="message"
+                placeholder="Digite sua mensagem aqui..."
+              ></textarea>
+            </div>
+            <button type="submit">Enviar mensagem</button>
+          </fieldset>
+        </form>
+        <div class="star"></div>
+      </section>
+    </main>
+
+    <footer><p>© 2023 - <a href="https://rocketseat.com.br">Rocketseat</a> Explorer</p></footer>
+  </body>
+</html>
